@@ -1,3 +1,4 @@
+#
 lista = [1, 2, 3, 4, 5]
 if 3 in lista:
     index = lista.index(3)
@@ -5,7 +6,7 @@ if 3 in lista:
 else:
     lista.append(3)
 print(lista)
-
+#
 lista2 = [1, 2, 3, 4, 5, 6, 69, 8, 9, 10]
 if 7 in lista2:
     index = lista2.index(7)
@@ -20,6 +21,13 @@ if "uva" in fruta:
 else:
     fruta.append("uva")
 print(fruta)
-
-numero = [4, 3, 6, 7]
+#
+numero = [2, 3, 6, 7]
+if numero[0] %2:
+    index = numero.index(2)
+    numero[index] = numero[0]*0.5
+else:
+    index = numero.index(2)
+    numero[index] = numero[0] * 2
+print(numero)
 
